@@ -1,0 +1,23 @@
+.btn-action-confirm {
+  gap: 12px;
+  margin-top: 36px;
+  display: flex;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-light-color);
+  justify-content: flex-end;
+}
+
+.btn-action-confirm .btn {
+  padding: 16px 48px;
+  border-radius: var(--xs-radius);
+  font-size: var(--3sm-font-size);
+}
+
+.btn-action-confirm p {
+  font-size: var(--2sm-font-size);
+}
+
+.btn-confirm {
+  background-color: var(--green-color);
+  color: var(--text-white-color);
+}

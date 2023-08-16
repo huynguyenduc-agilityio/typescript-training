@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../script/main.ts" type="module" defer></script>
+  </head>
+  <body>
+    <header class="header header-cart">
+      <div class="container flex-between">
+        <div class="header-bar">
+          <!-- Logo -->
+          <a class="logo" href="/">
+            <img
+              src="../assets/images/logo.png"
+              srcset="../assets/images/logo-small.png 480w, ../assets/images/logo.png 800w"
+              sizes="(max-width: 600px) 480px,
+        800px"
+              alt="CentralMusic"
+              class="logo-img"
+            />
+          </a>
+
+          <!-- Navbar -->
+          <nav class="navbar">
+            <ul class="navbar-list flex-center">
+              <li class="navbar-item">
+                <a href="/products" class="navbar-link">Guitars</a>
+              </li>
+              <li class="navbar-item">
+                <a href="javascript:void(0)" class="navbar-link">Accessories</a>
+              </li>
+              <li class="navbar-item">
+                <a href="javascript:void(0)" class="navbar-link">Storage</a>
+              </li>
+              <li class="navbar-item">
+                <a href="javascript:void(0)" class="navbar-link">Lessons</a>
+              </li>
+              <li class="navbar-item">
+                <a href="javascript:void(0)" class="navbar-link">Repairs</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Menu bar -->
+        <div id="toggle-menu"></div>
+
+        <!-- Button -->
+        <div class="header-actions">
+          <a href="/authentication" class="btn-icon btn-login">
+            <img src="../assets/icons/profile.svg" alt="profile" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main-content">
+      <div class="container">
+        <div class="cart-header flex-center">
+          <h1 class="header-title">Shopping Cart</h1>
+        </div>
+        <div class="body-cart"></div>
+      </div>
+    </main>
+  </body>
+</html>
